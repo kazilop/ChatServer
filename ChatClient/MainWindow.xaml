@@ -1,0 +1,24 @@
+﻿<Window x:Class="ChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatClient"
+        mc:Ignorable="d"
+        Title="Chat client v. 1.0." Height="500" Width="850" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight">
+    <Grid>
+        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Height="215" Margin="10,22,0,0" Text="Welcome to Chat Client !" TextWrapping="Wrap" VerticalAlignment="Top" Width="472" Background="#FFE1FDFF"/>
+        <GroupBox Header="IP Address" Margin="487,10,228,402">
+            <TextBox HorizontalAlignment="Left" Text="192.168.0.20" TextWrapping="Wrap" Width="88" Height="25" Margin="10,0,0,0"/>
+        </GroupBox>
+        <GroupBox Header="Port" Margin="637,10,60,402">
+            <TextBox HorizontalAlignment="Left" Text="8888" TextWrapping="Wrap" Width="88" Height="25" Margin="10,0,0,0"/>
+        </GroupBox>
+        <Button Content="Connect" HorizontalAlignment="Left" Margin="509,100,0,0" VerticalAlignment="Top" Height="32" Width="101" Click="Button_Click_1"/>
+        <TextBox x:Name="txtBox" HorizontalAlignment="Left" Margin="10,260,0,0" Text="Enter your text here..." TextWrapping="Wrap" VerticalAlignment="Top" Width="472" Height="164"/>
+        <Button Content="Close connection" HorizontalAlignment="Left" Margin="509,151,0,0" VerticalAlignment="Top" Height="33" Width="101" Click="Button_Click_3"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="688,126,0,0" VerticalAlignment="Top" Height="40" Width="102" Click="Button_Click"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Left" Margin="496,342,0,0" VerticalAlignment="Top" Height="82" Width="294" Click="btnSend_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{C566DB59-C11A-4F2C-9F41-7F54759B8542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{AC9C89CC-67F4-402C-996E-05C392FA56E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{0CFBF049-1662-4F8A-91DD-1D6CF536056B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C566DB59-C11A-4F2C-9F41-7F54759B8542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C566DB59-C11A-4F2C-9F41-7F54759B8542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C566DB59-C11A-4F2C-9F41-7F54759B8542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C566DB59-C11A-4F2C-9F41-7F54759B8542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9C89CC-67F4-402C-996E-05C392FA56E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9C89CC-67F4-402C-996E-05C392FA56E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9C89CC-67F4-402C-996E-05C392FA56E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9C89CC-67F4-402C-996E-05C392FA56E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFBF049-1662-4F8A-91DD-1D6CF536056B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFBF049-1662-4F8A-91DD-1D6CF536056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFBF049-1662-4F8A-91DD-1D6CF536056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFBF049-1662-4F8A-91DD-1D6CF536056B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEDA9529-8800-4578-9A1B-517036A4C4A5}
+	EndGlobalSection
+EndGlobal
